@@ -1,0 +1,16 @@
+kind: pipeline
+type: exec
+name: test001
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: greeting
+  commands:
+  - echo -e 'hello world'
+
+- name: file output
+  commands:
+  - cat ../first.txt
