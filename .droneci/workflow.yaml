@@ -7,10 +7,8 @@ platform:
   arch: amd64
 
 steps:
-- name: greeting
+- name: Test output
+  image: debian:stable
   commands:
   - echo -e 'hello world'
-
-- name: file output
-  commands:
   - cat ../first.txt
