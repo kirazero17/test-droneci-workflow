@@ -11,5 +11,6 @@ steps:
   image: debian:stable
   commands:
   - echo -e 'hello world'
+  - pwd
   - ls
   - cat first.txt
