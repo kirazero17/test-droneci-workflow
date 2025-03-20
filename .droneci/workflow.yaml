@@ -11,4 +11,4 @@ steps:
   image: debian:stable
   commands:
   - echo -e 'hello world'
-  - cat ../first.txt
+  - cat /drone/src/.git/first.txt
